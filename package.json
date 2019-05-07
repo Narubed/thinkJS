@@ -1,0 +1,31 @@
+{
+  "name": "projectjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Test1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/test1.js",
+    "build": "babel src --out-dir dist",
+    "serve": "node dist/test1.js",
+    "dev": "babel-node ./Test1.js",
+    "dev1": "babel-node ./newjs.js",
+    "dev2": "babel-node ./Test3.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-rc.1",
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/node": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.4.4",
+    "babel-core": "^6.26.3",
+    "babel-install": "2.1.0",
+    "eslint": "^5.16.0",
+    "eslint-auto-fix": "^1.0.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {}
+}
